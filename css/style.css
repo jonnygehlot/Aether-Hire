@@ -1,0 +1,45 @@
+:root {
+    --heading: #545454;
+    --bgcolor: #f6faff;
+    --para: #868686;
+}
+
+.bgcolor {
+    background-color: var(--bgcolor);
+}
+
+.bgi1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bgi2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+.heading {
+    font-size: 44px;
+    font-weight: 600;
+    color: var(--heading);
+}
+
+.prop {
+    color: var(--heading);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
+}
+
+.para {
+    color: var(--para);
+    font-size: 14px;
+    word-spacing: 1.5px;
+    line-height: 26px;
+}
